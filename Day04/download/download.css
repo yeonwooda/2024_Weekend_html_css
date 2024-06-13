@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+h6 {
+  padding-top: 120px;
+
+  color: #31abf1;
+  font-size: 20px;
+}
+
+.text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 60px;
+  color: #252b42;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  padding: 35px;
+
+  color: grey;
+}
+
+.button {
+  display: flex;
+  padding: 80px;
+
+  gap: 10px;
+}
+
+.apple {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding: 40px 20px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+
+  color: #252b42;
+  background-color: white;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  padding: 40px 20px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+
+  color: white;
+  background-color: #252b42;
+}
+
+.button > i {
+  padding-right: 10px;
+}

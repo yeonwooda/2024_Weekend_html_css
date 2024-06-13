@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 1000px;
+  border: 1px solid black;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.box > div {
+  flex: 1;
+}
+
+.al {
+  background-color: aliceblue;
+}
+
+.a2 {
+  background-color: antiquewhite;
+}
+
+.a3 {
+  background-color: aqua;
+}
+
+.a4 {
+  background-color: aquamarine;
+}
+
+.a5 {
+  background-color: azure;
+}
+
+.a6 {
+  background-color: beige;
+}
+
+.a7 {
+  background-color: bisque;
+}
+
+.a8 {
+  background-color: blanchedalmond;
+}
+
+.aa {
+  border: 1px solid red;
+
+  /* 위 오른쪽 아래 왼쪽 */
+  /* padding: 10px 20px 10px 20px; */
+  /* all */
+  padding: 10px;
+}
+
+.bb {
+  border: 1px solid green;
+
+  /* aa, bb의 간격 */
+  margin-left: 150px;
+}
