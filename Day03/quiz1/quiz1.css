@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.box > div {
+  flex: 1;
+
+  width: 300px;
+
+  background-color: black;
+  color: white;
+
+  padding: 20px;
+
+  font-size: 15px;
+}

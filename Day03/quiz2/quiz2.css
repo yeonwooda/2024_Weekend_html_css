@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+
+  gap: 10px;
+}
+
+.all {
+  background-color: #1273e4;
+  color: white;
+}
+
+.box > div {
+  padding: 8px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+* {
+  color: red;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.moto {
+  text-align: center;
+  font-size: 30px;
+}
+.ment {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+
+  color: gray;
+
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+}
