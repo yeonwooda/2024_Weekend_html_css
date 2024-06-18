@@ -1,0 +1,8 @@
+.photo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(yeoshin_web.webp);
+  background-size: contain;
+  /* url 사진 넣을 때 마다 no-repeat는 사용 둘이 친구 처럼 사용하기 */
+  background-repeat: no-repeat;
+}

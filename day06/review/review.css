@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 20px;
+  gap: 50px;
+}
+
+.container > .box {
+  display: flex;
+  align-items: center;
+}
+
+.contract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.contract > span {
+  display: flex;
+  padding: 4px;
+}
+
+.contract > i {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.loans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.loans > span {
+  display: flex;
+  padding: 4px;
+}
+
+.loans > i {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
