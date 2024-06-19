@@ -1,0 +1,29 @@
+.frist {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+
+  color: white;
+
+  font-size: 50px;
+  font-weight: bold;
+
+  position: absolute;
+
+  font-family: "Pretendard-Regular";
+}
