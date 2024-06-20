@@ -1,0 +1,23 @@
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.storyCardArea {
+  display: flex;
+  gap: 10px;
+}
+
+.storycard {
+  display: flex;
+  flex-direction: column;
+}
+
+.card3 {
+  background-image: url("../IMG/card3.webp");
+}
+
+.card4 {
+  background-image: url("../IMG/card4.webp");
+}
