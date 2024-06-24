@@ -1,0 +1,48 @@
+main {
+  width: 510px;
+  height: 260px;
+  padding: 20px;
+  overflow: scroll;
+  background-color: #000000;
+}
+
+.content {
+  margin-top: 5px;
+}
+li {
+  display: flex;
+  gap: 10px;
+  width: 659px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  text-align: center;
+
+  gap: 10px;
+  color: white;
+}
+
+ul > i {
+  display: flex;
+  margin: 0 auto;
+
+  width: 40px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 19px 8px;
+
+  border-radius: 50%;
+  background-color: rgb(51, 49, 49);
+  color: white;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
