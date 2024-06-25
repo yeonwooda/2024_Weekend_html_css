@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.r {
+  background-color: red;
+}
+.o {
+  background-color: orange;
+}
+.g {
+  background-color: green;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
