@@ -1,0 +1,17 @@
+.box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: fit-content;
+}
+button {
+  padding: 3px 12px 4px;
+
+  border: 1px solid #f6f6f6;
+  border-radius: 10px;
+
+  font-weight: bold;
+  background-color: #f6f6f6;
+  color: #666;
+}
