@@ -1,0 +1,47 @@
+footer {
+  width: 100vw;
+  background-color: #333;
+  color: #666;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  padding: 10px;
+  border-bottom: 1px solid #777;
+}
+
+.upper > h4 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.lower {
+  padding: 20px 0px 10px 0px;
+}
+
+.lowerText {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    max-width: 400px;
+  }
+  .upper {
+    max-width: 400px;
+  }
+  .lower {
+    max-width: 400px;
+  }
+}
